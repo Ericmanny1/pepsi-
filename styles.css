@@ -1,0 +1,37 @@
+body {
+  background-color: skyblue;
+  margin: 0;
+  padding: 0;
+}
+.first-container{
+  height: 100%;
+  width: 100%;
+  background-image: url("bg.png");
+  background-position: center;
+  background-size: cover;
+}
+.header {
+width: 100%;
+margin: auto;
+display: flex;
+align-items: center;
+}
+.img1{
+  width: 80px;
+  margin-top: 10px;
+}
+nav {
+  margin-left: 450px;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0px 15px;
+}
+nav ul li a{
+  color: white;
+  font-size: 15px;
+  font-weight: 60px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
